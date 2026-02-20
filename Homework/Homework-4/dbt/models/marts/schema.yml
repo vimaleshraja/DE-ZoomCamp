@@ -119,9 +119,6 @@ models:
       - name: tolls_amount
         description: Total tolls paid
         data_type: numeric
-      - name: ehail_fee
-        description: E-hail service fee
-        data_type: numeric
       - name: improvement_surcharge
         description: Improvement surcharge
         data_type: numeric

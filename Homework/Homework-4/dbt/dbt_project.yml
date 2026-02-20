@@ -1,11 +1,11 @@
-name: 'taxi_rides_ny'
+name: 'taxi'
 version: '1.0.0'
 
 # Require a specific dbt version for reproducibility
 require-dbt-version: [">=1.7.0", "<2.0.0"]
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'taxi_rides_ny'
+profile: 'taxi'
 
 # These configurations specify where dbt should look for different types of files.
 model-paths: ["models"]

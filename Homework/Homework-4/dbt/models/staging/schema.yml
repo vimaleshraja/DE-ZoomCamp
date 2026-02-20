@@ -39,8 +39,6 @@ models:
         description: Tip amount (credit card tips only, cash tips not included)
       - name: tolls_amount
         description: Total amount of all tolls paid during the trip
-      - name: ehail_fee
-        description: E-hail service fee
       - name: improvement_surcharge
         description: Improvement surcharge assessed on hailed trips
       - name: total_amount
