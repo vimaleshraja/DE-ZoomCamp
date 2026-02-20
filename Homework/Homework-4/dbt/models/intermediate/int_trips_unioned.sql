@@ -18,7 +18,7 @@ with green_trips as (
         mta_tax,
         tip_amount,
         tolls_amount,
-        ehail_fee,
+        --ehail_fee,
         improvement_surcharge,
         total_amount,
         payment_type,
@@ -43,7 +43,7 @@ yellow_trips as (
         mta_tax,
         tip_amount,
         tolls_amount,
-        cast(0 as numeric) as ehail_fee,  -- Yellow taxis don't have ehail_fee
+        --cast(0 as numeric) as ehail_fee,  -- Yellow taxis don't have ehail_fee
         improvement_surcharge,
         total_amount,
         payment_type,

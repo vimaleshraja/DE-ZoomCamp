@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('raw', 'green_tripdata') }}
+    select * from {{ source('raw', 'green_trip') }}
 ),
 
 renamed as (
@@ -26,7 +26,7 @@ renamed as (
         cast(mta_tax as numeric) as mta_tax,
         cast(tip_amount as numeric) as tip_amount,
         cast(tolls_amount as numeric) as tolls_amount,
-        cast(ehail_fee as numeric) as ehail_fee,
+        --cast(ehail_fee as numeric) as ehail_fee,
         cast(improvement_surcharge as numeric) as improvement_surcharge,
         cast(total_amount as numeric) as total_amount,
         {{ safe_cast('payment_type', 'integer') }} as payment_type
