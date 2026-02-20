@@ -6,7 +6,7 @@ sources:
     database: 'de-zoomcamp-485500'
     schema: 'zoomcamp'
     tables:
-      - name: green_trip
+      - name: green_trip_hw4
         description: Raw green taxi trip records
         columns:
           - name: vendorid
@@ -48,7 +48,7 @@ sources:
           - name: ehail_fee
             description: E-hail fee
 
-      - name: yellow_tripdata
+      - name: yellow_trip_hw4
         description: Raw yellow taxi trip records
         columns:
           - name: vendorid
